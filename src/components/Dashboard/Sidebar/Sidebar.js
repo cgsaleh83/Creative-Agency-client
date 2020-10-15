@@ -20,7 +20,7 @@ const Sidebar = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/admin', {
+        fetch('https://enigmatic-inlet-29316.herokuapp.com/admin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({email: loggedInUser.email})
@@ -59,7 +59,7 @@ const Sidebar = () => {
                         </li>
                     
                     </div> :
-                   <div>
+                    <div>
                             <li>
                                 <Link to='/'>
                                     <span className='icon'><i class="fa fa-home" aria-hidden="true"></i></span>

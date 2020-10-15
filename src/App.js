@@ -7,16 +7,16 @@ import {
 } from "react-router-dom";
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
+import AddReviews from './components/Review/AddReviews/AddReviews';
+import Order from './components/Orders/Order/Order';
 import Login from './components/Login/Login/Login';
-import Home from './components/Home/Home/Home';
 import Works from './components/Home/Works/Works';
-import Order from './components/ClientSite/Order/Order';
-import OrderList from './components/ClientSite/OrderList/OrderList';
-import AddServices from './components/AddServices/AddServices';
-import AddReviews from './components/AddReviews/AddReviews';
-import AllOrders from './components/AllOrders/AllOrders/AllOrders';
+import AddServices from './components/Services/AddServices/AddServices';
 import MakeAdmin from './components/MakeAdmin/MakeAdmin';
 import Sidebar from './components/Dashboard/Sidebar/Sidebar';
+import Home from './components/Home/Home/Home';
+import AllOrders from './components/Orders/AllOrders/AllOrders';
+import OrderList from './components/Orders/OrderList/OrderList';
 
 
 export const UserContext = createContext();

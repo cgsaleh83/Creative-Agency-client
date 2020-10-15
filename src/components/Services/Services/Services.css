@@ -1,0 +1,142 @@
+.services_container{
+    margin-top: 80px ;
+    position: relative ;
+}
+.services_container h5{
+    
+    color: #000000;
+     margin: 17px 0;
+}
+.services_container h2{
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+.services_container span{
+      color: #7AB259;
+}
+
+.services_container h2::after{
+    content: "";
+    position: absolute;
+    top: 49px;
+    left: 49px;
+    width: 200px;
+    display: block;
+    height: 2px;
+    background: #1CC7C1
+}
+
+.services_container h2::before{
+  content: "";
+    position: absolute;
+    top: 46px;
+    left: 136px;
+    width: 27px;
+    display: block;
+    height: 8px;
+    background: #1CC7C1;
+}
+
+
+.service_detail{
+    margin: 80px 0;
+    padding: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.service_detail:hover{
+    box-shadow: 10px 10px 10px 40px rgb(246, 243, 243);
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+.service_detail:hover p{
+    color: #1CC7C1;
+}
+
+.service_detail img{
+    height: 70px;
+}
+
+.services_detail{
+    margin: 80px 0;
+    padding: 30px 20px;
+    transition: .5s;
+    border-radius: 5px;
+    box-shadow: -20px 30px 20px  rgba(0, 0, 0, 0.1);
+    position: relative;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.services_detail img{
+    height: 60px;
+    margin-right: 17px;
+    margin-top: 14px;
+    z-index: 2;
+}
+.services_detail h5{
+    z-index: 5;
+}
+
+.services_detail p{
+    color: gray;
+    z-index: 2;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.services_box{
+    position: relative
+}
+.services_box .layer{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(-180deg, #111430 0%, #3b3f66  43%, #111430 100%);
+    z-index: 1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.services_box:hover .layer{
+   height: 100%;
+   z-index: -1;
+   color: #ffffff;
+}
+.services_box:hover h5 ,
+.services_box:hover h3 ,
+.services_box:hover p {
+    color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+  .service_detail{
+    margin: 20px 0;
+  }
+  .services_container{
+      margin: 144px 0 100px 0;
+  }
+}

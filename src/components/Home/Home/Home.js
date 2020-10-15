@@ -1,11 +1,12 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
-import BusinessInfo from '../BusinessInfo/BusinessInfo';
-import Contact from '../Contact/Contact';
-import Reviews from '../Reviews/Reviews';
-import Header from '../Header/Header';
-import Services from '../Services/Services';
+import BusinessInfo from '../../BusnessShareCompany/BusinessInfo/BusinessInfo';
+import Contact from '../../MainFooter/Contact/Contact';
+import Footer from '../../MainFooter/Footer/Footer';
+import Header from '../../MainHeader/Header/Header';
+import Reviews from '../../Review/Reviews/Reviews';
+import Services from '../../Services/Services/Services';
 import Works from '../Works/Works';
+
 
 const Home = () => {
     return (

@@ -1,0 +1,36 @@
+.footer-area{
+    background: #111430;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6ACECE;
+    padding: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.social-media .icon:hover{
+     background-color: #6ACECE ;
+    color:white;
+}
+
+.clear-both img{
+    width: 170px;
+}
+
+.copyRight p{
+    margin: 0;
+    padding: 10px
+}

@@ -3,7 +3,6 @@
     height: 224px;
     background: #111430;
     color: #fff;
-    font-size: 30px;
     margin: 125px 20px;
     display: flex;
     justify-content: center;
@@ -22,7 +21,7 @@
   width: 678px;
   height: 450.7px;
 }
-
+.hCVuYx,
 .chowzb {
    display: none
 }
@@ -51,6 +50,7 @@
 .card_container span{
     color: #7AB259;
 }
+
 @media (max-width: 600px) {
   .card_container span{
         margin: 20px 0;

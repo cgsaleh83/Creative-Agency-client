@@ -1,9 +1,7 @@
-
-import React, { useContext, useEffect, useState } from 'react';
-import Sidebar from '../Sidebar/Sidebar';
+import React from 'react';
 import 'react-calendar/dist/Calendar.css';
-import { UserContext } from '../../../App';
-import AddServices from '../../AddServices/AddServices';
+import AddServices from '../../Services/AddServices/AddServices';
+import Sidebar from '../Sidebar/Sidebar';
 
 const containerStyle = {
     backgroundColor: "#F4FDFB",
