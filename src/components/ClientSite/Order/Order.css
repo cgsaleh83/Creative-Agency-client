@@ -1,0 +1,8 @@
+.order_container{
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    padding: 13px;
+}
+.order_container img{
+   margin: 15px 0;
+}

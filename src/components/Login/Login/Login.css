@@ -1,0 +1,81 @@
+.login_container{
+    padding: 4px;
+}
+
+.login_container .logo{
+    width: 150px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px
+}
+
+.input_container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    align-items: center;
+    box-shadow: -10px 10px 10px 10px  rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    padding: 0 133px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input_container h1{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 30px
+}
+.input_container input{
+    width: 400px;
+    height: 45px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray
+}
+
+.input_container p{
+    color: red;
+}
+
+.input_container button{
+    width: 400px;
+    height: 45px;
+    margin: 10px 4px;
+    border: 1px solid gray;
+    color: #000000;
+    background: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.input_container span{
+    color: #000000;
+     margin-left: 55px;
+}
+.input_container p{
+    margin-top: 12px;
+}
+
+.log_btn{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.log_btn img{
+    width: 31px;
+    height: 31.74px;
+    margin-right: -50px
+}

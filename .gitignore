@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+rect router: https://reactrouter.com/web/guides/quick-start
+
+font awasome: https://fontawesome.com/how-to-use/on-the-web/using-with/react
+rect calender: https://github.com/wojtekmaj/react-calendar#readme
+
+rect modal: https://github.com/reactjs/react-modal
+
+rect hoks: https://react-hook-form.com/get-started
+rect maps: https://www.npmjs.com/package/@react-google-maps/api

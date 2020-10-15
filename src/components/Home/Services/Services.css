@@ -1,0 +1,83 @@
+.services_container{
+ margin-top: 130px ;
+}
+.services_container h5{
+    
+    color: #000000;
+     margin: 17px 0;
+}
+.services_container h2{
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+.services_container span{
+      color: #7AB259;
+}
+
+.services_container h2::after{
+    content: "";
+    position: absolute;
+    top: 49px;
+    left: 49px;
+    width: 200px;
+    display: block;
+    height: 2px;
+    background: #1CC7C1
+}
+
+.services_container h2::before{
+  content: "";
+    position: absolute;
+    top: 46px;
+    left: 136px;
+    width: 27px;
+    display: block;
+    height: 8px;
+    background: #1CC7C1;
+}
+
+
+.service_detail{
+    margin: 80px 0;
+    padding: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.service_detail:hover{
+    box-shadow: 10px 10px 10px 40px rgb(246, 243, 243);
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+
+.service_detail:hover p{
+    color: #1CC7C1;
+}
+
+.service_detail img{
+    height: 70px;
+}
+
+.review_container p{
+    color: gray;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+@media (max-width: 600px) {
+  .service_detail{
+    margin: 20px 0;
+  }
+  .services_container{
+      margin: 144px 0 100px 0;
+  }
+}

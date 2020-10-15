@@ -1,0 +1,27 @@
+.table_container{
+    background: #ffffff;
+    padding: 40px;
+    text-align: justify;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.table_container table thead{
+    background: #F5F6FA;
+    padding: 15px;
+    border-radius: 13px;
+    text-align: center;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.table_container table td{
+    width: 252px;
+    padding: 10px;
+    text-align: center;
+}
