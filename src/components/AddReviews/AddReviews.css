@@ -2,24 +2,24 @@
 .header_bg{
     
 }
-.addDoctor_container{
+.addReview_container{
     position: absolute;
     top: 10%;
     left: 30%;
     width: 800px;
     padding: 50px
 }
-.addDoctor_container input{
+.addReview_container input{
     width: 100%;
     height: 45px;
     border: none;
 }
 
-.addDoctor_container label{
+.addReview_container label{
     color: #ddd;
 }
 
-.addDoctor_container h5{
+.addReview_container h5{
     font-size: 40px;
     font-family: 'Satisfy', cursive;
 }

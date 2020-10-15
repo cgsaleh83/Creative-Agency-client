@@ -5,11 +5,11 @@ import './Services.css';
 
 const Services = () => {
 
-    const [doctors, setDoctors] = useState([])
+    const [services, setServices] = useState([])
     useEffect(() => {
         fetch('http://localhost:5000/services')
             .then(res => res.json())
-            .then(data => setDoctors(data))
+            .then(data => setServices(data))
     }, [])
 
     return (
@@ -21,7 +21,7 @@ const Services = () => {
             <div className='d-flex justify-content-center'>
                 <div className='w-75 row'>
                     {
-                        doctors.map(doctor => <ServiceDetail key={doctor._id} doctor={doctor}></ServiceDetail>)
+                        services.map(service => <ServiceDetail key={service._id} service={service}></ServiceDetail>)
                     }
                 </div>
             </div>

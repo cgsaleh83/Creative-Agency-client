@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import Review from '../Doctor/Review';
+import Review from '../Review/Review';
 import './Reviews.css'
 
 const Reviews = () => {
@@ -21,7 +21,7 @@ const Reviews = () => {
                 <div className='d-flex justify-content-center'>
                     <div className='w-80 row'>
                         {
-                            reviews.map(doctor => <Review key={doctor._id} doctor={doctor} />)
+                            reviews.map(review => <Review key={review._id} review={review} />)
                         }
                     </div>
                 </div>

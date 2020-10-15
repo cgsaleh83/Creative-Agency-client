@@ -1,26 +1,31 @@
 import React from 'react';
-import InfoCard from '../InfoCard/InfoCard';
 import uber from '../../../images/logos/uber.png';
 import slack from '../../../images/logos/slack.png';
 import netflix from '../../../images/logos/netflix.png';
 import google from '../../../images/logos/google.png';
 import airbnb from '../../../images/logos/airbnb.png';
+import ShareHolder from '../ShareHolder/ShareHolder'
 
-const infosData = [
+const shareHolderData = [
     {
-        img: uber
+        img: uber,
+        id: 1
     },
     {
-        img: slack
+        img: slack,
+        id: 2
     },
     {
-        img: netflix
+        img: netflix,
+        id: 3
     },
     {
-        img: google
+        img: google,
+        id: 4
     },
     {
-        img: airbnb
+        img: airbnb,
+        id: 5
     },
 ]
 const BusinessInfo = () => {
@@ -28,7 +33,7 @@ const BusinessInfo = () => {
         <section className="d-flex justify-content-center">
             <div className="w-75 row  offset-md-1">
                 {
-                    infosData.map(info => <InfoCard info={info} key={info.title}></InfoCard>)
+                    shareHolderData.map(info => <ShareHolder info={info} key={info.id}></ShareHolder>)
                 }
             </div>
         </section>

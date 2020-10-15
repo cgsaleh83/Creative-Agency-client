@@ -6,3 +6,25 @@
 .order_container img{
    margin: 15px 0;
 }
+
+.addOrder_container{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 800px;
+    padding: 50px
+}
+.addOrder_container input{
+    width: 100%;
+    height: 45px;
+    border: none;
+}
+
+.addOrder_container label{
+    color: #ddd;
+}
+
+.addOrder_container h5{
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
