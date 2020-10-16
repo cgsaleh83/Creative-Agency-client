@@ -133,10 +133,19 @@
 
 
 @media (max-width: 600px) {
-  .service_detail{
+  .services_detail {
     margin: 20px 0;
   }
   .services_container{
       margin: 144px 0 100px 0;
   }
+  .addService_container{
+      width: 100%;
+      padding: 10px;
+  }
+  .addService_container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    }
 }

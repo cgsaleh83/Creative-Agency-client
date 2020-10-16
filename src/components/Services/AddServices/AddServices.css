@@ -3,7 +3,8 @@
     top: 10%;
     left: 30%;
     width: 800px;
-    padding: 50px
+    padding: 50px;
+    background: #F4FDFB;
 }
 .addService_container input{
     width: 100%;

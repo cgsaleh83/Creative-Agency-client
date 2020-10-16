@@ -3,7 +3,7 @@ import '../Order/Order.css'
 
 const OrderListDetails = ({ order }) => {
     return (
-        <div className="col-md-4 text-center order_container">
+        <div className="col-md-4 text-center orders_container">
             <div className="row d-flex justify-content-center ">
                 {
                     order.image ? <img style={{ height: '60px' }} src={`data:image/png;base64,${order.image.img}`} alt="" />

@@ -79,3 +79,18 @@
     height: 31.74px;
     margin-right: -50px
 }
+
+@media (max-width: 600px) {
+    .input_container {
+        width: 100%;
+        padding: 20px;
+    }
+    .input_container button {
+        width: 100%;
+        padding: 12px 20px;
+    }
+    .input_container span {
+        color: #000000;
+        margin-left: 9px;
+    }
+}

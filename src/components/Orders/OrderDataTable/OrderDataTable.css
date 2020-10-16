@@ -25,3 +25,40 @@
     padding: 10px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .table_container table tr{
+        display: flex;
+        flex-direction: column;
+        box-shadow: -20px 30px 20px  rgba(0, 0, 0, 0.1);
+        border-top: 1px solid gray;
+        background: #F4FDFB;
+        color: #000000;
+        padding: 15px 7px;
+    }
+
+    .table_container table tr:first-child{
+        border-top: none
+    }
+
+    .table_container table td {
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .table_container table thead th{
+        background: #7AB259;
+        color: #fff;
+        box-shadow: -4px 4px 6px 4px rgba(0,0,0,0.1);
+    }
+    .table_container {
+       padding: 0;
+       margin-top: 40px;
+       width: 100%;
+    }
+    .table_container table td {
+        width: 100%;
+        padding: 7px;
+        text-align: center;
+    }
+}

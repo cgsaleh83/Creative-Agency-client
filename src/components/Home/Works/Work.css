@@ -64,20 +64,20 @@
     .card_container h2::before {
         content: "";
         position: absolute;
-       top: 65px;
-        left: 178px;
+        top: 87px;
+        left: 147px;
       
     }
     .card_container h2::after {
         content: "";
         position: absolute;
-        top: 68px;
-        left: 96px;
+        top: 90px;
+        left: 66px;
     }
     .card_container {
         width: 100%;
-        height: 650px;
-        padding: 40px;
+         height: 787px;
+        padding: 10px;
         background: #111430;
     }
     .info-card img {

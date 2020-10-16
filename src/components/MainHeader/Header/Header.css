@@ -10,6 +10,10 @@
 }
 
 /* header main */
+.header_main{
+    width: 100%;
+    padding: 10px;
+}
 
 .header_main img{
     width: 624.6px;
@@ -58,11 +62,14 @@
     color: #ffffff;
     background: #10D0E9;
 }
+.header_content_write{
+    padding: 10px;
+}
 
 
 @media (max-width: 768px){
     .header_content_write{
-        padding: 42px;
+        padding: 30px 0 30px 30px;
     }
 
     .navbar .button{
