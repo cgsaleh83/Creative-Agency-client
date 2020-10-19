@@ -29,7 +29,7 @@ const ServiceDetail = ({ service }) => {
                 <h3>{service.project}</h3>
                 <p>
                     {
-                        descriptionCollapse ? service.service : service.service.substr(0, 100)
+                        descriptionCollapse ? service.service : service.service.substr(0, 130)
                     }
                 </p>
                 {
