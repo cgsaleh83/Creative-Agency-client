@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight,faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 const ServiceDetail = ({ service }) => {
+    const [descriptionCollapse, setDescriptionCollapse] = useState(false);
+
+    const showMore = () => {
+        console.log("Show More");
+        setDescriptionCollapse(true);
+    }
+    const showLess = () => {
+        console.log("Show less");
+        setDescriptionCollapse(false);
+    }
     return (
      
         <section className='col-md-4 text-center services_box '>
@@ -14,7 +26,18 @@ const ServiceDetail = ({ service }) => {
                     }
                 </div>
                 <h3>{service.project}</h3>
-                <p>{service.service}</p>
+                <p> 
+                                {
+                                    descriptionCollapse ? service.service : service.service.substr(0,150)
+                                }
+                            </p>
+                            {
+                                descriptionCollapse? 
+                                <span onClick={showLess} className="card-link collapse-btn">See Less <FontAwesomeIcon className="icon" icon={faArrowAltCircleLeft} /></span>
+                                :
+                                <span onClick={showMore} className="card-link collapse-btn">See More <FontAwesomeIcon className="icon" icon={faArrowAltCircleRight} /></span>
+                            }
+                {/* <p>{service.service}</p> */}
             </div>
         </section>
     );

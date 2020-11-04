@@ -48,7 +48,6 @@ const Order = () => {
                 <h5 className="text_color text-center">Order</h5>
 
                 <form onSubmit={handleSubmit}>
-
                     <div className="form-group">
                         
                         <input onBlur={handleBlur} type="text" className="form-control" name="name" placeholder="Name" />
