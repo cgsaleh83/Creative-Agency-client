@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -44,7 +45,7 @@ const Footer = () => {
                         </div>
                         <ul className="social-media list-inline">
                             <li className="list-inline-item"><a href="https://www.facebook.com/sajjat8383" target="_blank"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
-                            <li className="list-inline-item"><a href="https://github.com/cgsaleh83" target="_blank"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                            <li className="list-inline-item"><a href="https://github.com/cgsaleh8383" target="_blank"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
                             <li className="list-inline-item"><a href="https://www.linkedin.com/in/sajjat8383/" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a></li>
                         </ul>
                     </FooterCol>
